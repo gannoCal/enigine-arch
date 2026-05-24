@@ -1,0 +1,236 @@
+~/Desktop/engine/enigine-master/dev/build/Debug ~/Desktop/engine/enigine-master/dev
+STAGE1
+STAGE2
+-- Using Conan toolchain: /home/calebg/Desktop/engine/enigine-master/dev/build/Debug/conan_toolchain.cmake
+-- Conan toolchain: Defining architecture flag: -m64
+-- Conan toolchain: C++ Standard 17 with extensions ON
+-- The C compiler identification is GNU 16.1.1
+-- The CXX compiler identification is GNU 16.1.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Conan: Target declared 'glfw'
+-- Conan: Target declared 'opengl::opengl'
+-- Conan: Component target declared 'xorg::x11'
+-- Conan: Component target declared 'xorg::x11-xcb'
+-- Conan: Component target declared 'xorg::fontenc'
+-- Conan: Component target declared 'xorg::ice'
+-- Conan: Component target declared 'xorg::xau'
+-- Conan: Component target declared 'xorg::xaw7'
+-- Conan: Component target declared 'xorg::xcomposite'
+-- Conan: Component target declared 'xorg::xcursor'
+-- Conan: Component target declared 'xorg::xdamage'
+-- Conan: Component target declared 'xorg::xdmcp'
+-- Conan: Component target declared 'xorg::xext'
+-- Conan: Component target declared 'xorg::xfixes'
+-- Conan: Component target declared 'xorg::xi'
+-- Conan: Component target declared 'xorg::xinerama'
+-- Conan: Component target declared 'xorg::xkbfile'
+-- Conan: Component target declared 'xorg::xmu'
+-- Conan: Component target declared 'xorg::xmuu'
+-- Conan: Component target declared 'xorg::xpm'
+-- Conan: Component target declared 'xorg::xrandr'
+-- Conan: Component target declared 'xorg::xrender'
+-- Conan: Component target declared 'xorg::xres'
+-- Conan: Component target declared 'xorg::xscrnsaver'
+-- Conan: Component target declared 'xorg::xt'
+-- Conan: Component target declared 'xorg::xtst'
+-- Conan: Component target declared 'xorg::xv'
+-- Conan: Component target declared 'xorg::xxf86vm'
+-- Conan: Component target declared 'xorg::xcb-xkb'
+-- Conan: Component target declared 'xorg::xcb-icccm'
+-- Conan: Component target declared 'xorg::xcb-image'
+-- Conan: Component target declared 'xorg::xcb-keysyms'
+-- Conan: Component target declared 'xorg::xcb-randr'
+-- Conan: Component target declared 'xorg::xcb-render'
+-- Conan: Component target declared 'xorg::xcb-renderutil'
+-- Conan: Component target declared 'xorg::xcb-shape'
+-- Conan: Component target declared 'xorg::xcb-shm'
+-- Conan: Component target declared 'xorg::xcb-sync'
+-- Conan: Component target declared 'xorg::xcb-xfixes'
+-- Conan: Component target declared 'xorg::xcb-xinerama'
+-- Conan: Component target declared 'xorg::xcb'
+-- Conan: Component target declared 'xorg::xcb-atom'
+-- Conan: Component target declared 'xorg::xcb-aux'
+-- Conan: Component target declared 'xorg::xcb-event'
+-- Conan: Component target declared 'xorg::xcb-util'
+-- Conan: Component target declared 'xorg::xcb-dri3'
+-- Conan: Component target declared 'xorg::xcb-cursor'
+-- Conan: Component target declared 'xorg::xcb-dri2'
+-- Conan: Component target declared 'xorg::xcb-glx'
+-- Conan: Component target declared 'xorg::xcb-present'
+-- Conan: Component target declared 'xorg::xcb-composite'
+-- Conan: Component target declared 'xorg::xcb-ewmh'
+-- Conan: Component target declared 'xorg::xcb-res'
+-- Conan: Component target declared 'xorg::uuid'
+-- Conan: Component target declared 'xorg::sm'
+-- Conan: Target declared 'xorg::xorg'
+-- Conan: Component target declared 'GLEW::glew_s'
+-- Conan: Target declared 'GLEW::GLEW'
+-- Conan: Target declared 'mesa-glu::mesa-glu'
+-- Conan: Component target declared 'libglvnd::gldispatch'
+-- Conan: Component target declared 'libglvnd::opengl'
+-- Conan: Component target declared 'libglvnd::egl'
+-- Conan: Component target declared 'libglvnd::glx'
+-- Conan: Component target declared 'libglvnd::gles1'
+-- Conan: Component target declared 'libglvnd::gles2'
+-- Conan: Component target declared 'libglvnd::gl'
+-- Conan: Target declared 'libglvnd::libglvnd'
+-- Conan: Component target declared 'xorg-proto::applewmproto'
+-- Conan: Component target declared 'xorg-proto::bigreqsproto'
+-- Conan: Component target declared 'xorg-proto::compositeproto'
+-- Conan: Component target declared 'xorg-proto::damageproto'
+-- Conan: Component target declared 'xorg-proto::dmxproto'
+-- Conan: Component target declared 'xorg-proto::dpmsproto'
+-- Conan: Component target declared 'xorg-proto::dri2proto'
+-- Conan: Component target declared 'xorg-proto::dri3proto'
+-- Conan: Component target declared 'xorg-proto::fixesproto'
+-- Conan: Component target declared 'xorg-proto::fontsproto'
+-- Conan: Component target declared 'xorg-proto::glproto'
+-- Conan: Component target declared 'xorg-proto::inputproto'
+-- Conan: Component target declared 'xorg-proto::kbproto'
+-- Conan: Component target declared 'xorg-proto::presentproto'
+-- Conan: Component target declared 'xorg-proto::randrproto'
+-- Conan: Component target declared 'xorg-proto::recordproto'
+-- Conan: Component target declared 'xorg-proto::renderproto'
+-- Conan: Component target declared 'xorg-proto::resourceproto'
+-- Conan: Component target declared 'xorg-proto::scrnsaverproto'
+-- Conan: Component target declared 'xorg-proto::videoproto'
+-- Conan: Component target declared 'xorg-proto::xcmiscproto'
+-- Conan: Component target declared 'xorg-proto::xextproto'
+-- Conan: Component target declared 'xorg-proto::xf86bigfontproto'
+-- Conan: Component target declared 'xorg-proto::xf86dgaproto'
+-- Conan: Component target declared 'xorg-proto::xf86driproto'
+-- Conan: Component target declared 'xorg-proto::xf86vidmodeproto'
+-- Conan: Component target declared 'xorg-proto::xineramaproto'
+-- Conan: Component target declared 'xorg-proto::xproto'
+-- Conan: Component target declared 'xorg-proto::xwaylandproto'
+-- Conan: Target declared 'xorg-proto::xorg-proto'
+-- Conan: Target declared 'xorg-macros::xorg-macros'
+-- Conan: Target declared 'glm::glm'
+-- Conan: Target declared 'imgui::imgui'
+-- Conan: Target declared 'assimp::assimp'
+-- Conan: Target declared 'minizip::minizip'
+-- Conan: Target declared 'BZip2::BZip2'
+-- Conan: Including build module from '/home/calebg/.conan2/p/b/bzip21a65bab69c9d0/p/lib/cmake/conan-official-bzip2-variables.cmake'
+-- Conan: Target declared 'ZLIB::ZLIB'
+-- Conan: Target declared 'pugixml::pugixml'
+-- Conan: Target declared 'zip::zip'
+-- Conan: Target declared 'poly2tri::poly2tri'
+-- Conan: Target declared 'draco::draco'
+-- Conan: Target declared 'clipper::clipper'
+-- Conan: Target declared 'openddlparser::openddlparser'
+-- Conan: Target declared 'OpenAL::OpenAL'
+-- Conan: Target declared 'ALSA::ALSA'
+-- Conan: Including build module from '/home/calebg/.conan2/p/b/openae09543cb534f6/p/lib/cmake/conan-official-openal-soft-variables.cmake'
+-- Conan: Target declared 'Bullet::Bullet'
+-- Conan: Including build module from '/home/calebg/.conan2/p/b/bulle5af6e08a47702/p/lib/cmake/bullet/conan-official-bullet3-variables.cmake'
+-- Conan: Target declared 'drwav::drwav'
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/calebg/Desktop/engine/enigine-master/dev/build/Debug
+STAGE3
+[  1%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/car_controller/link_wheel.cpp.o
+[  3%] Building CXX object CMakeFiles/enigine_dev.dir/src/main.cpp.o
+[  4%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/animation/animation.cpp.o
+[  8%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/animation/bone.cpp.o
+[  8%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/animation/animator.cpp.o
+[  9%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/car_controller/link_door.cpp.o
+[ 11%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/camera/camera.cpp.o
+[ 13%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/car_controller/car_controller.cpp.o
+[ 14%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/character/character.cpp.o
+[ 16%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/character/np_character.cpp.o
+[ 18%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/character/playable_character.cpp.o
+[ 19%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/character_controller/character_controller.cpp.o
+[ 21%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/character_controller/speed_limiter.cpp.o
+[ 22%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/culling_manager/culling_manager.cpp.o
+[ 24%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/enigine.cpp.o
+[ 26%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/external/imgui/src/imgui_impl_glfw.cpp.o
+[ 27%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/external/imgui/src/imgui_impl_opengl3.cpp.o
+[ 29%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/file_manager/file_manager.cpp.o
+[ 31%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/input_manager/input_manager.cpp.o
+[ 32%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/mesh/mesh.cpp.o
+[ 34%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/model/model.cpp.o
+[ 36%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/particle_engine/particle_engine.cpp.o
+[ 37%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/pbr_manager/pbr_manager.cpp.o
+[ 39%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/physics_world/debug_drawer/debug_drawer.cpp.o
+[ 40%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/physics_world/physics_world.cpp.o
+[ 42%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/post_process/bloom_manager.cpp.o
+[ 44%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/post_process/post_process.cpp.o
+[ 45%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ragdoll/ragdoll.cpp.o
+[ 47%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/render_manager/g_buffer.cpp.o
+[ 49%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/render_manager/render_manager.cpp.o
+[ 50%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/render_manager/ssao.cpp.o
+[ 52%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/resource_manager/resource_manager.cpp.o
+[ 54%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/shader/shader.cpp.o
+[ 55%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/shader_manager/shader_manager.cpp.o
+[ 57%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/shadow_manager/shadow_manager.cpp.o
+[ 59%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/shadowmap_manager/shadowmap_manager.cpp.o
+[ 60%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/sound_engine/sound_engine.cpp.o
+[ 62%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/terrain/terrain.cpp.o
+[ 63%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/timer/timer.cpp.o
+[ 65%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/transform/transform.cpp.o
+[ 67%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/transform_link/link_rigidbody.cpp.o
+[ 70%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/camera/camera_ui.cpp.o
+[ 70%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/animation/animation_ui.cpp.o
+[ 72%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/character/character_ui.cpp.o
+[ 73%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/common/common_ui.cpp.o
+[ 75%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/common/physics_ui.cpp.o
+[ 77%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/common/vector_ui.cpp.o
+[ 78%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/particle/particle_ui.cpp.o
+[ 80%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/physics/physics_ui.cpp.o
+[ 81%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/ragdoll/ragdoll_ui.cpp.o
+[ 83%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/render/render_ui.cpp.o
+[ 85%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/resource/resource_ui.cpp.o
+[ 86%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/root_ui.cpp.o
+[ 88%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/shadowmap/shadowmap_ui.cpp.o
+[ 90%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/sound/sound_ui.cpp.o
+[ 91%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/system_monitor/system_monitor_ui.cpp.o
+[ 93%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/terrain/terrain_ui.cpp.o
+[ 95%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/ui/vehicle/vehicle_ui.cpp.o
+[ 96%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/update_manager/update_manager.cpp.o
+[ 98%] Building CXX object CMakeFiles/enigine_dev.dir/home/calebg/Desktop/engine/enigine-master/src/vehicle/vehicle.cpp.o
+[100%] Linking CXX executable enigine_dev
+[100%] Built target enigine_dev
+enigine_version: 0.0.1
+cpp_version: 201703
+started_at: Sat May 23 18:31:31 2026
+
+  99ms - Shader - vs: assets/shaders/pbr.vs - fs: assets/shaders/pbr-deferred-pre.fs
+  61ms - Shader - vs: assets/shaders/anim.vs - fs: assets/shaders/pbr-deferred-pre.fs
+  13ms - Shader - vs: assets/shaders/pbr-deferred-after.vs - fs: assets/shaders/pbr-deferred-after.fs
+  12ms - Shader - vs: assets/shaders/pbr-deferred-point-light.vs - fs: assets/shaders/pbr-deferred-point-light.fs
+  52ms - Shader - vs: assets/shaders/pbr.vs - fs: assets/shaders/pbr.fs
+   3ms - Shader - vs: assets/shaders/simple-shader.vs - fs: assets/shaders/depth-shader.fs
+  20ms - Shader - vs: assets/shaders/anim.vs - fs: assets/shaders/depth-shader.fs
+   6ms - Shader - vs: assets/shaders/light-volume.vs - fs: assets/shaders/light-volume.fs
+   6ms - Shader - vs: assets/shaders/light-volume.vs - fs: assets/shaders/simple-shader.fs
+  13ms - Shader - vs: assets/shaders/ssao.vs - fs: assets/shaders/ssao.fs
+   3ms - Shader - vs: assets/shaders/ssao.vs - fs: assets/shaders/ssao-blur.fs
+   5ms - Shader - vs: assets/shaders/cubemap.vs - fs: assets/shaders/skybox.fs
+  10ms - Shader - vs: assets/shaders/post-process.vs - fs: assets/shaders/post-process.fs
+   1ms - Shader - vs: assets/shaders/simple-shader.vs - fs: assets/shaders/simple-shader.fs
+  26ms - Shader - vs: assets/shaders/pbr.vs - fs: assets/shaders/simple-deferred.fs
+   2ms - Shader - vs: assets/shaders/line-shader.vs - fs: assets/shaders/line-shader.fs
+   2ms - Shader - vs: assets/shaders/simple-texture.vs - fs: assets/shaders/texture-array.fs
+   8ms - Shader - vs: assets/shaders/hdr-to-cubemap.vs - fs: assets/shaders/hdr-to-cubemap.fs
+   6ms - Shader - vs: assets/shaders/cubemap.vs - fs: assets/shaders/irradiance.fs
+  11ms - Shader - vs: assets/shaders/cubemap.vs - fs: assets/shaders/prefilter.fs
+   8ms - Shader - vs: assets/shaders/post-process.vs - fs: assets/shaders/brdf.fs
+  10ms - Shader - vs: assets/shaders/sample.vs - fs: assets/shaders/downsample.fs
+   3ms - Shader - vs: assets/shaders/sample.vs - fs: assets/shaders/upsample.fs
+   9ms - Model - /icosahedron.glb
+   0ms - Model - /cube.glb
+   1ms - Model - /quad.glb
+   5ms - Model - /sphere.glb
+   0ms - Model - /icosahedron.glb
+   1ms - Texture - path: /qwantani_puresky.hdr
+  16ms - Model - /rim.glb
+~/Desktop/engine/enigine-master/dev

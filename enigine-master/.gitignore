@@ -1,0 +1,55 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Cache
+__pycache__/*
+test_package/__pycache__/*
+test_package/build/*
+build
+*.pyc
+tmp/
+CMakeUserPresets.json
+
+# IDE
+**/.vscode/*
+.idea/*
+.project
+.pydevproject
+.settings/*
+.ropeproject/*
+
+# LLDB
+**/.cache/*
+compile_commands.json
+
+# ImGui
+imgui.ini
+
+# macOS
+.DS_STORE

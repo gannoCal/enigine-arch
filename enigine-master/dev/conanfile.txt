@@ -1,0 +1,19 @@
+[requires]
+glfw/3.3.6
+glew/2.2.0
+glm/cci.20220420
+imgui/1.90.8
+assimp/5.4.3
+#openal/1.22.2
+#openal/1.24.2
+openal-soft/1.23.1
+bullet3/3.25
+drwav/0.13.14
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+#[options]
+#openal/*:audioio=False
+#openal/*:pulseaudio=False  # Crucial: Disables the broken Arch macro search
