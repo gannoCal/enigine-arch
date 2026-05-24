@@ -61,16 +61,25 @@ echo STAGE1
 
 
 
+#GCC16
+#conan install ../.. \
+#  --output-folder=. \
+#  --build=missing \
+#  --build=openal-soft \
+#  --settings=build_type=$BUILD_TYPE \
+#  -c "tools.build:cxxflags=['-include', 'stdint.h']" \
+#  -c "tools.build:cflags=['-include', 'stdint.h']" \
+#  -o openal-soft/*:with_pulseaudio=False
 
+
+#GCC15
 conan install ../.. \
   --output-folder=. \
   --build=missing \
   --build=openal-soft \
   --settings=build_type=$BUILD_TYPE \
-  -c "tools.build:cxxflags=['-include', 'stdint.h']" \
-  -c "tools.build:cflags=['-include', 'stdint.h']" \
-  -o openal-soft/*:with_pulseaudio=False
-
+  -o openal-soft/*:with_pulseaudio=False \
+  -c tools.build:cxxflags="['-include cstdint']"
 
 
 
